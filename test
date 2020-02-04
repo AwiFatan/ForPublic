@@ -1,0 +1,4 @@
+    var judulPost = document.getElementsByClassName("h2 post-title entry-title");
+alert(judulPost)
+
+document.title= judulPost;
