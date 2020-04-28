@@ -1,11 +1,6 @@
  function klik() {
-var copyText = document.getElementById("af_pesan");
-              copyText.select();
-copyText.addEventListener("click", clickHandler, false);
+            var copyText = document.getElementById("af_pesan");
+            copyText.select();
+            document.execCommand("copy");
 
-           
         }
-function clickHandler(e) {
-  document.exeCommand('copy');
-}
- 
