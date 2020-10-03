@@ -1,0 +1,44 @@
+    .mt-2,
+    .my-2 {
+        margin-top: 8px !important;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .mb-2,
+    .my-2 {
+        margin-bottom: 8px !important;
+    }
+
+    .form-check {
+        position: relative;
+        display: block;
+        padding-left: 1.25rem;
+    }
+
+    .form-check-label {
+        margin-bottom: 0;
+    }
+
+    .form-check-inline {
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-left: 0;
+        margin-right: 0.75rem;
+    }
+
+    .right {
+        width: 70%
+    }
+
+    .left {
+        width: 30%
+    }
