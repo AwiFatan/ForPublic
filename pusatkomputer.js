@@ -1,4 +1,3 @@
-
         var kode = "AKfycbyo7AP5XNbXtqmtKkiyTa-_cUW0DPyU5T3YWW4NUs-m87pCqJqjcyHlZWSihZqOTotDNg";
         var script_url = "https://script.google.com/macros/s/" + kode + "/exec";
         var url = script_url + "?action=read";
@@ -36,15 +35,15 @@
                         switch (merk) {
                             case "INTEL":
                                 strProsessorIntel += `<tr>
-                    <td scope="col" >` + tipemerk + `</td>
-                    <td scope="col" >Rp.</td>
+                    <td scope="col" class="tipemerk">` + tipemerk + `</td>
+                    <td scope="col" class="rp">Rp.</td>
                     <td scope="col" class="text-end">` + numberWithPoint(hj) + `</td></tr>
                     `
                                 break;
                             case "AMD":
                                 strProsessorAMD += `<tr>
-                    <td scope="col">` + tipemerk + `</td>
-                    <td scope="col">Rp.</td>
+                    <td scope="col" class="tipemerk">` + tipemerk + `</td>
+                    <td scope="col" class="rp">Rp.</td>
                     <td scope="col" class="text-end">` + numberWithPoint(hj) + `</td></tr>`
                                 break;
                         }
@@ -53,37 +52,37 @@
                         switch (merk) {
                             case "MSI":
                                 strMotherboardMSI += `<tr>
-                    <td scope="col">` + tipemerk + `</td>
-                    <td scope="col">Rp.</td>
+                    <td scope="col" class="tipemerk">` + tipemerk + `</td>
+                    <td scope="col" class="rp">Rp.</td>
                     <td scope="col" class="text-end">` + numberWithPoint(hj) + `</td></tr>`
                                 break;
 
                                 break;
                             case "ASROCK":
                                 strMotherboardASROCK += `<tr>
-                    <td scope="col">` + tipemerk + `</td>
-                    <td scope="col">Rp.</td>
+                    <td scope="col" class="tipemerk">` + tipemerk + `</td>
+                    <td scope="col" class="rp">Rp.</td>
                     <td scope="col" class="text-end">` + numberWithPoint(hj) + `</td></tr>`
                                 break;
                                 break;
                             case "GIGABYTE":
                                 strMotherboardGIGABYTE += `<tr>
-                    <td scope="col">` + tipemerk + `</td>
-                    <td scope="col">Rp.</td>
+                    <td scope="col" class="tipemerk">` + tipemerk + `</td>
+                    <td scope="col" class="rp">Rp.</td>
                     <td scope="col" class="text-end">` + numberWithPoint(hj) + `</td></tr>`
                                 break;
                                 break;
                             case "ASUS":
                                 strMotherboardASUS += `<tr>
-                    <td scope="col">` + tipemerk + `</td>
-                    <td scope="col">Rp.</td>
+                    <td scope="col" class="tipemerk">` + tipemerk + `</td>
+                    <td scope="col" class="rp">Rp.</td>
                     <td scope="col" class="text-end">` + numberWithPoint(hj) + `</td></tr>`
                                 break;
                                 break;
                             case "GALAX":
                                 strMotherboardGALAX += `<tr>
-                    <td scope="col">` + tipemerk + `</td>
-                    <td scope="col">Rp.</td>
+                    <td scope="col" class="tipemerk">` + tipemerk + `</td>
+                    <td scope="col" class="rp">Rp.</td>
                     <td scope="col" class="text-end">` + numberWithPoint(hj) + `</td></tr>`
                                 break;
                                 break;
